@@ -3,6 +3,11 @@
 
 This Python script processes SEM images, detects contours, and saves the contour images in a specified output directory. The script also crops the bottom 10% of the image before processing so that SEM information is not included in the contour analysis.
 
+<p align="center">
+  <img src="og.jpg" alt="Original Image" width="400" />
+  <img src="contour.jpg" alt="Contour Image" width="400" height="290" />
+</p>
+
 ## Requirements
 
 - Python 3.x

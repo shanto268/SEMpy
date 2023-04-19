@@ -1,3 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+=======================================================
+Program : sem_image_analysis/get_device_contour.py
+=======================================================
+Summary:
+"""
+__author__ =  "Sadman Ahmed Shanto"
+__date__ = "04/18/2023"
+__email__ = "shanto@usc.edu"
+
+#libraries used
 import os
 import cv2
 import argparse

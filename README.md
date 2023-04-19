@@ -52,6 +52,6 @@ The default value for the threshold is 0.05.
 
 - [ ] Generate analysis plots for dose tests of various features
 
-- [ ] ML integration so that it can be trained based on inference codes for image classification (good bridge/dosimetry classification) in the future to speed up analysis task
+- [ ] ML integration so that it can be trained based on inference codes for image classification (good bridge/dosimetry classification) in the future to speed up analysis task (https://arxiv.org/pdf/2203.08969.pdf)
 
 

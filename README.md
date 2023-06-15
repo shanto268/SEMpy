@@ -1,5 +1,6 @@
-# Image Analysis Program for SEM Pictures of Quantum Devices:
+# [DEPRECATED] Image Analysis Program for SEM Pictures of Quantum Devices:
 
+> :warning: **This project is deprecated**: Please visit [QuantumDeviceSEM](https://github.com/shanto268/QuantumDeviceSEM) for the latest version.
 
 This Python script processes SEM images, detects contours, and saves the contour images in a specified output directory. The script also crops the bottom 10% of the image before processing so that SEM information is not included in the contour analysis.
 
@@ -23,6 +24,7 @@ pip install opencv-python scikit-image imutils
 
 ## Usage
 
+0. Calculate the pixels corresponding to SEM scale
 1. Save the script as `get_device_contour.py`
 2. Prepare a directory with SEM images you want to process.
 3. Open a terminal and navigate to the directory where the script is saved.
@@ -47,6 +49,8 @@ The default value for the threshold is 0.05.
 ---
 
 ## To Do:
+
+- [ ] Integrate Meta's `segment-anything` package into our analysis pipeline
 
 - [ ] Measure the sizes of various features based on one measurement/the scale
 

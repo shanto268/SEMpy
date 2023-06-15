@@ -2,3 +2,6 @@
 *.png
 *.env
 results/*
+nbr*/*
+weights/*
+
